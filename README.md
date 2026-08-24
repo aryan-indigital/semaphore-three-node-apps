@@ -12,3 +12,6 @@ small Semaphore UI CI/CD test.
 Semaphore runs `ansible/deploy.yml` from this repository. The playbook installs
 Node.js on the managed host, deploys each service under `/opt/semaphore-node-apps`,
 creates systemd units, and verifies all three health endpoints.
+
+Pushes to `main` trigger the Semaphore deployment template through the configured
+GitHub webhook.
