@@ -1,0 +1,9 @@
+{
+  "name": "semaphore-node-app-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Semaphore CI/CD demo application one",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
